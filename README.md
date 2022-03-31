@@ -1,0 +1,2 @@
+# lat1
+latihan 
