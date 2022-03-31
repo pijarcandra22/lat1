@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .head{
+            padding-top: 30px;
+        }
+        .inside{
+            padding-top: 50px;
+            padding-left: 15px;    
+        }
+        .header{
+            font-family:'Fjalla One';
+            color: white;
+            line-height: 100%;
+            font-size: 60pt;
+        }
+        .warna2{
+            color: white;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 12pt;
+        }
+        .line{
+            border-bottom: 20px solid white;
+            width: 100%;
+        }
+        .back{
+            background-image: url('BR WEB.png'); 
+            background-size: cover;
+        }
+        .nav-link:hover{
+            color:#000;
+        }
+        @media only screen and (max-width: 800px) {
+            .back{
+                background-image: url('BR WEB 2.png');
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .head{
+                padding-top: 10px;
+            }
+            .header{
+                font-size: 40pt;
+            }
+            .warna2{
+                font-size: 8pt;
+            }
+            .inside{
+                padding-left: 0px;
+            }
+            .back{
+                background-image: url('BR WEB 3.png');
+            }
+            .nav-item{
+                width:100%;
+                text-align:center;
+            }
+        }
+        .warna{
+            color: white;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 12pt;
+        }
+    </style>
+    </head>
+    <body class="back">
+    <div class="container ">
+        <div class="head">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <a class="navbar-brand" href="#"><img src="Barong 2.png" style="width: 250px;" class="img-fluid" alt="Responsive image"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="nav justify-content-end nav-pills ">
+                        <li class="nav-item">
+                            <a class="nav-link warna" style="padding-left: 30px; padding-right: 30px; border-radius: 0px;" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link warna" style="padding-left: 30px; padding-right: 30px; border-radius: 0px;" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link warna" style="padding-left: 30px; padding-right: 30px; border-radius: 0px;" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active warna" style="padding-left: 30px; padding-right: 30px; border-radius: 0px; background-color: black;" href="#">SING UP</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="inside">
+            <div class="row">
+                <div class="col-lg-5 col-md-7 col-sm-12">
+                    <div class="line"></div>
+                    <h1 class="header">Real Coding Project</h1>
+                    <p class="warna2">
+                        Our cource are specifically<br>
+                        designed to make you build real-life <br>
+                        project from start to finish. We <br>
+                        also offer certificates.
+                    </p>
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item" >
+                          <a class="nav-link warna2" style="border-radius: 0px; margin-right: 15pt; border-style: solid; border-color: white;" href="#">TRY FOR FREE</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active warna2" style=" border-style: solid; border-color:black; border-radius: 0px; background-color: black ;" href="#">SING UP NOW</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="line" style="height:500px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+<script>
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 100) {
+        $('.header').css('color','#123123')
+    }
+    else {
+        $('.header').show()
+    }
+});
+</script>
